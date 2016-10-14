@@ -9,6 +9,12 @@ section.index .post-list-title {
     margin-bottom: 0.2em;
 }
 
+section.post-body p, section.post-body li {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    font-size: 0.9em;
+}
+
 
 section.post-body h3 {
     margin-top: 2em;
@@ -40,11 +46,19 @@ section.post-body h3 {
     color: white;
 }
 
+.highlight .nt {
+    color: oldlace;
+}
+
 code {
     font-size: 0.8em;
-    background: #102;
+    background: #213;
     padding: 2px 5px;
     color: lightblue;
+}
+
+.highlight code {
+    background: transparent;
 }
 
 .pub-note {
