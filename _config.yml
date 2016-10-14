@@ -1,5 +1,6 @@
 name: njmcode-blog
 description: "Entirely deterministic musings on web development, gaming, music, cinema and other esoterica."
+baseurl: /blog
 markdown: kramdown
 highlighter: rouge
 #baseurl: /blog
