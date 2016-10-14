@@ -4,7 +4,7 @@ title: "Blogging via GitHub"
 summary: "A quick guide to minimal blogging with text files and Git."
 date: 2016-10-14
 ---
-I was an active, albeit angsty, bloger in my youth. Now that I actually have a profession I'm passionate about, I've been
+I was an active, albeit angsty, blogger in my youth. Now that I actually have a profession I'm passionate about, I've been
 meaning to pick it up again.  Sadly I've been put off by the various blog platforms available -
 they're too complex, bloated and/or costly for my tastes. All I need is somewhere to quickly bang out notes and musings,
 nothing fancy.
