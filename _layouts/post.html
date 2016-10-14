@@ -1,9 +1,25 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p>{{ page.date | date_to_string }}</p>
 
-<div class="post">
+<section class="post-header">
+    <p><a href="{{ site.baseurl }}/">&lt; Home</a></p>
+
+    <p><small class="pub-date">{{ page.date | date_to_string }}</small></p>
+
+    <h2>{{ page.title }}</h2>
+
+    <p class="summary">{{ page.summary }}</p>
+</section>
+
+<section class="post-body">
     {{ content }}
-</div>
+</section>
+
+<section class="post-footer">
+    <p class="pub-note">Published on {{ page.date | date_to_string }}.</p>
+
+    {% include author.html %}
+
+    <p><a href="{{ site.baseurl }}/">&lt; Home</a></p>
+</section>

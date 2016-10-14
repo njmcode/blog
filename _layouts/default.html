@@ -1,15 +1,34 @@
 <!doctype html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#2a0349">
     <title>{{ site.name }} | {{ page.title }}</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
 </head>
 <body>
-    <h1>{{ site.name }}</h1>
-    <p>{{ site.description }}</p>
+    <div id="wrap">
+        <header>
+            <h1>
+                <span class="dec" role="presentation">.:. </span>
+                <span class="sitename">{{ site.name }}</span>
+                <span class="dec" role="presentation"> .:.</span>
+            </h1>
+            <div class="overview">
+                <p>{{ site.description }}</p>
+            </div>
+        </header>
+        <nav></nav>
+        <div id="main" role="main">
+            {{ content }}
+        </div>
 
-    {{ content }}
-
+        <footer>
+            <p>&copy;2016 njmcode.</p>
+        </footer>
+    </div>
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/noncrit.css">
 </body>
 </html>

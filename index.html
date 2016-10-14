@@ -3,17 +3,21 @@ layout: default
 title: Welcome
 ---
 
-<h2>Welcome</h2>
-<p>This is the index.</p>
-
+<section class="index">
+<h2>Posts</h2>
 <ul>
     {% for post in site.posts %}
     <li>
-        <h4>
+        <h3>
             <a href="{{ site.baseurl }}{{ post.url }}"
                 title="{{ post.title }}">{{ post.title }}</a>
             <small>{{ post.date | date_to_string }}</small>
-        </h4>
+        </h3>
+        <p>{{ post.summary }}</p>
     </li>
     {% endfor %}
 </ul>
+
+{% include author.html %}
+
+</section>
