@@ -32,6 +32,7 @@ section.post-body h3 {
     font-size: 0.8em;
     color: lightblue;
     margin: 1em;
+    overflow-x: auto;
 }
 
 .highlight .kd {
