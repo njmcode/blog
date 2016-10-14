@@ -8,11 +8,11 @@ title: Welcome
 <ul>
     {% for post in site.posts %}
     <li>
-        <h3>
+        <p class="post-list-title">
             <a href="{{ site.baseurl }}{{ post.url }}"
                 title="{{ post.title }}">{{ post.title }}</a>
             <small>{{ post.date | date_to_string }}</small>
-        </h3>
+        </p>
         <p>{{ post.summary }}</p>
     </li>
     {% endfor %}
