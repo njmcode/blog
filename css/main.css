@@ -67,6 +67,15 @@ code {
     color: #caa7e6;
 }
 
+,author-intro {
+    font-style: italic;
+}
+
+.author-intro img {
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
 .author-signoff {
     background: #102;
     padding: 1em;
@@ -74,8 +83,37 @@ code {
     margin: 2em 1em;
     line-height: 1.6;
     font-style: italic;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.author-signoff img {
+    border: 2px solid #60199a;
+}
+
+.author-signoff aside {
+    margin-left: 1em;
 }
 
 .author-signoff strong {
     color: white;
+}
+
+footer {
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #eb67c3;
+    font-weight: normal;
+}
+
+footer a:hover {
+    color: #eba6d6;
 }

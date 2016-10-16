@@ -1,7 +1,13 @@
-name: njm.blog
+name: "njm.blog"
 description: "Entirely deterministic musings on web development, gaming, music, cinema and other esoterica."
 baseurl: /blog
 markdown: kramdown
 highlighter: rouge
+author:
+  name: "Neil M"
+  uri: https://njmcode.github.io/
+  picture: /img/assets/avatar.png
+  twitter: njmcode
+
 gems:
   - jekyll-feed

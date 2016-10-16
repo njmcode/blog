@@ -10,6 +10,10 @@ layout: default
     <h2>{{ page.title }}</h2>
 
     <p class="summary">{{ page.summary }}</p>
+
+    <p class="author-intro">
+        <img src="{{ site.baseurl }}/img/assets/avatar.png" width="30" height="30" alt="Twitter profile image" /> by <strong>Neil M</strong>
+    </p>
 </section>
 
 <section class="post-body">
@@ -17,7 +21,7 @@ layout: default
 </section>
 
 <section class="post-footer">
-    <p class="pub-note">Published on {{ page.date | date_to_string }}.</p>
+    <p class="pub-note">Published on {{ page.date | date_to_string }}. <a href="{{ site.baseurl }}/feed.xml" target="_blank">Subscribe</a></p>
 
     {% include author.html %}
 
