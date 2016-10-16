@@ -17,7 +17,7 @@ layout: default
 
     {% if page.image.main %}
     <div class="post-header-img">
-        <img src="{{ page.image.main.src }}" />
+        <img src="{{ site.baseurl }}{{ page.image.main.src }}" />
         {% if page.image.main.credit %}
         <a href="{{ page.image.main.credit }}" class="post-header-img-credit">Image credit</a>
         {% endif %}
