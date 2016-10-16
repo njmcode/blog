@@ -3,6 +3,10 @@ layout: post
 title: "Blogging via GitHub"
 summary: "A quick guide to minimal blogging with text files and Git."
 date: 2016-10-14
+image:
+    main:
+        src: /img/headers/jekyll-github.png
+        credit: http://bitbyteyum.com/
 ---
 I was an active, albeit angsty, blogger in my youth. Now that I actually have a profession I'm passionate about, I've been
 meaning to pick it up again.  Sadly I've been put off by the various blog platforms available -

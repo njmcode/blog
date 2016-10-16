@@ -9,6 +9,30 @@ section.index .post-list-title {
     margin-bottom: 0.2em;
 }
 
+.post-header-img {
+    height: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.post-header-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.post-header-img a {
+    font-weight: normal;
+    font-size: 0.7em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 section.post-body p, section.post-body li {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.8;

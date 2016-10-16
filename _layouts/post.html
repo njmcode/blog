@@ -14,6 +14,15 @@ layout: default
     <p class="author-intro">
         <img src="{{ site.baseurl }}/img/assets/avatar.png" width="30" height="30" alt="Twitter profile image" /> by <strong>Neil M</strong>
     </p>
+
+    {% if page.image.main %}
+    <div class="post-header-img">
+        <img src="{{ page.image.main.src }}" />
+        {% if page.image.main.credit %}
+        <a href="{{ page.image.main.credit }}" class="post-header-img-credit">Image credit</a>
+        {% endif %}
+    </div>
+    {% endif %}
 </section>
 
 <section class="post-body">
