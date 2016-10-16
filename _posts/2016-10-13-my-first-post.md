@@ -2,7 +2,7 @@
 layout: post
 title: "My first blog post"
 summary: "The first post I ever make on Jekyll."
-date: 2016-10-14
+date: 2016-10-13
 ---
 
 I finally got my **Markdown** blog up and running!

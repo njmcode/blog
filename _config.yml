@@ -3,4 +3,5 @@ description: "Entirely deterministic musings on web development, gaming, music, 
 baseurl: /blog
 markdown: kramdown
 highlighter: rouge
-#baseurl: /blog
+gems:
+  - jekyll-feed
