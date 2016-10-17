@@ -16,7 +16,7 @@ nothing fancy.
 Since I'm a developer, I'm actually more comfortable in a plain text file than I am in a
 CMS or blog engine. And so, after some research, I gravitated towards a
 combination of **Jekyll** and **GitHub Pages**.  Here's an overview of how I set it
-up.
+up - you can also [check out the source][blogsrc].
 
 _(Note - I'm assuming a working knowledge of Git, and that you have a GitHub account and a Git client set up.)_
 
@@ -335,7 +335,7 @@ next while and see how far I can take it, from a developer and editor POV.  Watc
 **- NJM**
 
 
-
+[blogsrc]: https://github.com/njmcode/blog
 [folio]: https://njmcode.github.io/
 [gh]: https://github.io/
 [ghpages]: https://pages.github.com/
