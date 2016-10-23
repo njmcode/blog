@@ -39,9 +39,25 @@ section.post-body p, section.post-body li {
     font-size: 0.9em;
 }
 
+section.post-body p:first-child::first-letter {
+    font-size: 3em;
+    font-family: '4miniregular', monospace;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 #60199a;
+    /*float:left;*/
+    line-height: 1;
+    /*margin: -3px 0.1em 0 0;*/
+}
+
 
 section.post-body h3 {
     margin-top: 2em;
+}
+
+section.post-body img.inter {
+    margin: 2em auto;
+    display: block;
+    max-height: 300px;
 }
 
 .summary {
