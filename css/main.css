@@ -39,7 +39,7 @@ section.post-body p, section.post-body li {
     font-size: 0.9em;
 }
 
-section.post-body p:first-child::first-letter {
+section.post-body > p:first-child::first-letter {
     font-size: 3em;
     font-family: '4miniregular', monospace;
     text-transform: uppercase;
