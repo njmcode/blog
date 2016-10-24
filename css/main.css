@@ -58,6 +58,7 @@ section.post-body img.inter {
     margin: 2em auto;
     display: block;
     max-height: 300px;
+    max-width: 100%;
 }
 
 .summary {
