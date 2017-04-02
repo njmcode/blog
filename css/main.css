@@ -61,6 +61,11 @@ section.post-body img.inter {
     max-width: 100%;
 }
 
+section.post-body a {
+    font-weight: normal;
+    color: #f7daee;
+}
+
 .summary {
     font-style: italic;
     color: #caa7e6;
