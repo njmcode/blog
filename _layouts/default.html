@@ -21,9 +21,11 @@
                     <span class="dec" role="presentation"> .:.</span>
                 </a>
             </h1>
+            {% if page.use_desc %}
             <div class="overview">
                 <p>{{ site.description }}</p>
             </div>
+            {% endif %}
         </header>
         <nav></nav>
         <div id="main" role="main">
@@ -31,10 +33,14 @@
         </div>
 
         <footer>
+            <p> <a href="{{ site.baseurl }}/feed.xml" target="_blank">Subscribe</a>
+            | Share <a href="https://twitter.com/intent/tweet?text=Web+dev,+games,+and+other+esoterica+-+https%3A%2F%2Fnjmcode.github.io%2Fblog&via=njmcode" target="_blank">via Twitter</a>
+            | <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnjmcode.github.io%2Fblog" target="_blank">via Facebook</a>
+            </p>
+
             <p>&copy;2016 njmcode |
                 Powered by <a href="https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/"
-                    target="_blank">Jekyll + GitHub Pages</a> |
-                <a href="{{ site.baseurl }}/feed.xml" target="_blank">Subscribe</a>
+                    target="_blank">Jekyll + GitHub Pages</a>
             </p>
         </footer>
     </div>

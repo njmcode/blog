@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section class="post-header">
-    <p><a href="{{ site.baseurl }}/">&lt; Home</a></p>
+    <p><a href="{{ site.baseurl }}/">&lt; back to index</a></p>
 
     <p><small class="pub-date">{{ page.date | date_to_string }}</small></p>
 
@@ -31,6 +31,11 @@ layout: default
 
 <section class="post-footer">
     <p class="pub-note">Published on {{ page.date | date_to_string }}. <a href="{{ site.baseurl }}/feed.xml" target="_blank">Subscribe</a></p>
+
+    <p>
+        Share <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.baseurl | uri_escape }}{{ page.url | uri_escape }}&via=njmcode" target="_blank">via Twitter</a>
+        | <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.baseurl | uri_escape }}{{ page.url | uri_escape }}" target="_blank">via Facebook</a>
+    </p>
 
     {% include author.html %}
 
