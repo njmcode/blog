@@ -19,6 +19,11 @@ section.index .post-list-title {
     margin-bottom: 0.2em;
 }
 
+section.index .post-list-title a {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 section.index ul {
     margin-bottom: 2.5em;
     font-size: 0.9em;
