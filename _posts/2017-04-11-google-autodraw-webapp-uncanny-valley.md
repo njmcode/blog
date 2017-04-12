@@ -9,7 +9,7 @@ image:
         credit: https://github.io/njmcode
 ---
 
-Google [just announced AutoDraw](https://www.blog.google/topics/machine-learning/fast-drawing-everyone/), a machine learning-driven tool that renders your cack-handed artwork as crisp, editable line art in real time. Think of it as OCR for that crap you scrawl on your Post-Its while your relatives/the bank/Nigerian princes ramble down the phone.
+Google [just announced AutoDraw](https://www.blog.google/topics/machine-learning/fast-drawing-everyone/), a machine learning-driven tool that renders your cack-handed artwork as crisp, editable line art in real time. Think of it as OCR for doodles.
 
 The [launch trailer](https://www.youtube.com/watch?v=VwRbvVrUXTc) is a typically quirky affair, and spotlights that the tool is free, requires no download or install, and works on any device you use it on (I believe the correct term for this is 'a website'). The trailer even has cake in it!
 
