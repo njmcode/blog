@@ -41,7 +41,7 @@ There are ways to make this 'Back-as-Cancel' behaviour happen in web apps, but t
 
 In fariness, most web apps would respond exactly the same as AutoDraw to the Back button. I normally expect and avoid this as an inevitable (and eventually/hopefully surmountable) limitation of the platform. So why pull up AutoDraw, a self-identified experiment, for it? It's because the rest of the experience was generally so polished and immediate, I _forgot_ I was using a browser. And here's where things get a bit tricky for the Web platform.
 
-The shorthand, justified or not, for progressive web apps is 'native feel without the roadblocks': that we can/will provide app-like experiences which are feature-rich, robust and immediate without having to jump through the native app download/install/update hoops. It's a future I am personally and professionally invested in.
+The shorthand, justified or not, for progressive web apps is 'native feel without the roadblocks': that we can/will provide app-like experiences which are feature-rich, robust and immediate without forcing users to jump through the native app download/install/update hoops. It's a future I am personally and professionally invested in.
 The coming issue, in my mind, is the blurring of the lines between native and web - not for the developer, but for the _user_.
 
 I believe that the user has a well-defined, albeit somewhat subconscious, mental model of what a 'website' and an 'app' is<sup>[1]</sup>, and of the perceived differences between the two. Under this model, a WordPress blog on Chrome Android isn't _necessarily_ going to deliver the complexity and behaviour of a Facebook or Google Maps native app. Users accept this dichotomy and have learned to live with(in) it.
@@ -72,7 +72,7 @@ Hope you enjoyed that slice of post-Web dystopia. Hard to believe this all came 
 
 As I said at the top, this is *not* about 'native vs web'. I believe the two can co-exist and complement each other very well. And of course I remain a staunch believer in PWA principles such as those used by AutoDraw, and the future of Web apps in general.
 
-If there's one TL;DR to it all, it's this: we can't afford to half-ass these hybrid 'site'/'app' experiences, else we run the risk of ostracizing users further than if we had kept a much clearer distinction between the two forms. So be honest with yourself; test everything on a device; don't be afraid to beat the UX drum; and be prepared to get some dirty hacks on in the service of a greater user experience. Be a web developer, in other words. Eventually, the platform will catch up.
+If there's one TL;DR to it all, it's this: we can't afford to half-ass these hybrid 'site'/'app' experiences, else we run the risk of ostracizing users further than if we had kept a much clearer distinction between the two forms. We need to be honest with ourselves about the feel of our web apps; test everything on devices, and early; and be prepared to get some dirty hacks on in the service of a greater user experience. Eventually, hopefully, the platform will catch up.
 
 That, or we'll all be writing Facebook Instant Articles full-time in a couple of years. _That_ would be dystopian.
 
