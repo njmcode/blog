@@ -6,9 +6,9 @@
     <meta name="theme-color" content="#2a0349">
     <link rel="shortcut icon" href="{{ site.baseurl }}/img/assets/icon-48.png">
     <title>{{ site.name }} | {{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css?{{ site.github.build_revision }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css?{{ site.github.build_revision }}">
+    <link rel="manifest" href="manifest.json?{{ site.github.build_revision }}">
     {% feed_meta %}
 </head>
 <body>
@@ -47,6 +47,6 @@
     <aside id="to-top">
         <a href="#">^ top</a>
     </aside>
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/noncrit.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/noncrit.css?{{ site.github.build_revision }}">
 </body>
 </html>
