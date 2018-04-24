@@ -290,36 +290,6 @@ We've only scratched the very surface of what Jekyll can do with data and Liquid
  * **Post summaries** - a one-line overview of the contents of a blog post. You can define any metadata you want at the
  top of each `/_posts` file, so this is as simple as defining a `summary` then referencing it in your layout templates:
 
-~~~ markdown
-{% raw %}
-<!-- ./_posts/2016-10-14-my-blog-post-slug.md -->
----
-layout: post
-title: "My first blog post"
-summary: "A quick overview of how I set this up."
-date: 2016-10-14
----
-
-Content etc...
-{% endraw %}
-~~~
-
-~~~ html
-{% raw %}
-<!-- ./_layouts/post.html -->
-
-...
-
-<div class="post">
-    <h2>{{ page.title }}</h2>
-    <p class="summary">{{ page.summary }}</p>
-    <p>Posted on {{ page.date | date_to_string }}</p>
-    <!-- Blog post body gets injected below -->
-    {{ content }}
-</div>
-{% endraw %}
-~~~
-
  * **Categories / tags** - I haven't explored Jekyll's support for this yet, but I imagine you could do it with some
  custom metadata and clever use of Liquid filters and tags.
 

@@ -53,10 +53,14 @@ section.index ul {
     right: 0;
 }
 
+section.post-body {
+    font-size: 0.9em;
+}
+
 section.post-body p, section.post-body li {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.8;
-    font-size: 0.8em;
+    font-size: inherit;
 }
 
 section.post-body > p:first-child::first-letter {
@@ -71,7 +75,7 @@ section.post-body > p:first-child::first-letter {
 
 
 section.post-body h3 {
-    margin-top: 2em;
+    margin-top: 2.4em;
 }
 
 section.post-body img.inter {
@@ -187,4 +191,15 @@ footer a {
 
 footer a:hover {
     color: #eba6d6;
+}
+
+@media (min-width: 600px) {
+    section.post-body {
+        font-size: 1em;
+    }
+
+    .highlight {
+        padding: 0.5em;
+        font-size: 1em;
+    }
 }
