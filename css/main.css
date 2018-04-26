@@ -10,6 +10,10 @@ button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-bloc
     margin: 1em auto;
 }
 
+section.index {
+    font-size: 1.2em;
+}
+
 section.index .main-link {
     float: right;
 }
@@ -22,6 +26,11 @@ section.index .post-list-title {
 section.index .post-list-title a {
     padding-left: 0;
     padding-right: 0;
+}
+
+section.index .post-list-summary {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
 }
 
 section.index ul {
@@ -54,12 +63,12 @@ section.index ul {
 }
 
 section.post-body {
-    font-size: 0.9em;
+    font-size: 0.85em;
 }
 
 section.post-body p, section.post-body li {
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.8;
+    line-height: 1.7;
     font-size: inherit;
 }
 
@@ -137,7 +146,7 @@ code {
     color: #caa7e6;
 }
 
-,author-intro {
+.author-intro {
     font-style: italic;
 }
 

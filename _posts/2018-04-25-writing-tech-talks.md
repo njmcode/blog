@@ -9,9 +9,9 @@ image:
         credit: https://meetup.com/Belfast-JS
 ---
 
-I had a great time at a recent panel/workshop hosted by the Belfast Lean In chapter, [Women In Tech Belfast](https://leanincircles.org/circle/women-in-tech-belfast){:target="_blank"}. I was part of a panel discussing tips and advice for writing and delivering tech talks, particularly with respect to first-time speakers and the potential fear that speaking can trigger in people.
+I had a great time at a recent event hosted by the Belfast Lean In chapter, [Women In Tech Belfast](https://leanincircles.org/circle/women-in-tech-belfast){:target="_blank"}. I was part of a panel discussing tips and advice for writing and delivering tech talks, particularly with respect to first-time speakers and the potential fear that speaking can trigger in people.
 
-While the other panellists spoke concisely and articulately, I (as usual) rambled in a pretty disjointed and lengthy manner. This post is an attempt to more eloquently gather my thoughts, and will hopefully be of use to anyone considering a talk.
+This post is an attempt to more eloquently gather my thoughts, and will hopefully be of use to anyone considering a talk.
 
 **Obligatory disclaimer** - these are just my opinions, based on my experience as a frequent speaker and meetup host in the Belfast tech community. Also, the videos linked in this article are just come cool examples of recent talks I like, and aren't illustrative of the text they're adjacent to. Onward!
 
@@ -50,7 +50,9 @@ Topics don't have to be niche, unique, or advanced to have value. Simple and/or 
 
 There are many benefits to giving tech talks.
 
-It's most obviously a great CV booster and profile-raiser, for yourself _and_ your company or product. It's an excellent icebreaker at meetups. You never know who might be in the audience, or what doors might open for you. (An oft-cited personal example: speaking at [BelfastJS](https://www.meetup.com/Belfast-JS){:target="_blank"} landed me a job at a startup whose CTO, unbeknownst to me, was in the audience.)
+It's most obviously a great CV booster and profile-raiser. The increased visibility is of great help to speakers looking for placements or internships, new roles, collaboration opportunities, or eyes on a product or company.
+
+Giving a talk is an excellent icebreaker at meetups. You never know who might be in the audience, or what doors might open for you. (An oft-cited personal example: speaking at [BelfastJS](https://www.meetup.com/Belfast-JS){:target="_blank"} landed me a job at a startup whose CTO, unbeknownst to me, was in the audience.)
 
 Public speaking in general is a very useful skill. In any industry, your company might require you to share knowledge, or participate in standups and workshops. Giving tech talks is a good way to practice and get more comfortable. Over time, it can help to combat imposter syndrome and make you more confident in groups.
 
@@ -82,7 +84,7 @@ In short, you don't have to be an 'expert', you just need to be _willing_. Your 
 <a name="topic"></a>
 ### Choosing a topic
 
-Your circumstances might make choosing a topic easy. If your job requires the use of a particular tech, or you work in an experimental or emerging sector, you may have an abundance of subjects to draw from. Regardless, it can be tricky to focus on what you'd like to talk about.
+Your circumstances might make choosing a topic easy. If your education or job mandates the use of a particular tech, or you are interested in an experimental or emerging sector, you may have an abundance of subjects to draw from. Regardless, it can be tricky to focus on what you'd like to talk about.
 
 I believe you'll have an easier time writing and delivering a talk if you actually _care_ about what you're presenting. Choose something you're passionate about, and find a way to link it to tech. That might be something related _to_ the tech in question, like performance or best practices, but don't be afraid to cast your net wider in search of inspiration.
 
@@ -90,7 +92,7 @@ If you're an advocate for disability rights, talking about technical solutions t
 
 <div style="margin:3em auto;position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/20WH5AkkxCs?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 
-I'm personally lucky that many of my hobbies and interests (game dev, cinema, music production) intersect heavily with tech, so I can easily talk about, say, making a drum machine in the browser, using a framework to query the IMDB, or writing a _Flappy Bird_ clone in 20 lines of JavaScript (maybe). Look at your own interests and see how you might be able to spin them.
+I'm personally lucky that many of my hobbies and interests (game dev, cinema, music production) intersect heavily with tech, so I can easily talk about, say, [making a drum machine in the browser](https://github.com/njmcode/modular-drum-app){:target="_blank"}, using a framework to query the IMDB, or writing a _Flappy Bird_ clone in 20 lines of JavaScript (maybe). Look at your own interests and see how you might be able to spin them.
 
 Technology and development impact our lives in so many ways. There's nearly always something relevant to dive into that will actually ignite your passions and hopefully enrich the experience of speaking for you. And if you're passionate, it comes across to the audience, regardless of topic.
 
@@ -101,7 +103,7 @@ Everyone has a different approach for writing and presenting a talk. There is no
 
 Knowing the scope and focus of your talk is important for keeping yourself on track and not letting the content stray too far from the subject. A good rule of thumb is: if you can't write the synopsis of your talk in a Tweet, it's probably too complex. Refine and simplify it until you can. It will make writing it easier, and is more likely to hold the audience's attention.
 
-Establishing some premise or context for _why_ you're speaking on a subject, and why/how it might be of interest, can also keep you on track. It can help your confidence when it comes to delivery as well; it establishes a 'reason for being here'. For example, just giving a straight tech talk on CSS performance is useful, but might be a little dry or directionless; establishing up-front that CSS performance will impact the experience of people on low-powered devices (perhaps backed up with some relevant usage data) adds a human element and context for the discussion, for speaker _and_ audience. It gives people a 'way in' to your talk.
+Establishing some premise or context for _why_ you're speaking on a subject, and why/how it might be of interest, can also keep you on track. It can help your confidence when it comes to delivery as well; it establishes a 'reason for being here'. For example, just giving a straight tech talk on CSS performance is useful, but might be a little dry or directionless; establishing up-front that CSS performance will impact [the experience of people on low-powered devices](https://developers.google.com/web/billions/){:target="_blank"} (perhaps backed up with some relevant usage data) adds a human element and context for the discussion, for speaker _and_ audience. It gives people a 'way in' to your talk.
 
 If, as discussed, you are passionate about the subject, setting context may be simple for you. Don't be afraid to show your passion. Loving a topic is a good enough reason to talk about it.
 

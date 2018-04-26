@@ -25,7 +25,7 @@ use_desc: true
                         title="{{ post.title }}">{{ post.title }}</a>
                     <small>{{ post.date | date_to_string }}</small>
                 </p>
-                <p>{{ post.summary }}</p>
+                <p class="post-list-summary">{{ post.summary }}</p>
             </li>
 
         {% if forloop.last %}
