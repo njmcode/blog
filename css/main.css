@@ -15,7 +15,7 @@ button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-bloc
 }
 
 section.index {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 section.index .main-link {
@@ -23,8 +23,8 @@ section.index .main-link {
 }
 
 section.index .post-list-title {
-    font-size: 1.1em;
-    margin-bottom: 0.2em;
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
 }
 
 section.index .post-list-title a {
