@@ -20,7 +20,7 @@ This post is an attempt to more eloquently gather my thoughts, and will hopefull
 * A 'tech talk' [usually involves](#whatis) tools, technologies or techniques relevant to software and/or hardware
 * Speaking is [is a superb way](#why) to broaden knowledge, gain confidence, boost your CV, and give back to the community
 * Giving a talk doesn't mean you have to be an ['expert'](#expert) on your subject
-* [Choose a topic](#topic) you are passionate about link it to tech
+* [Choose a topic](#topic) you are passionate about, and link it to tech
 * [Make as many notes](#talk) as you need to use when speaking
 * Brainstorm and practice with friends to make yourself comfortable
 * Seek support from organisers if certain aspects (e.g. [taking questions](#qanda)) are a concern for you
@@ -39,7 +39,7 @@ That's really it for me. Note that I haven't mentioned code slides, live demos, 
 
 By comparison, 'non-technical talks' involve business goals, project/team management, personal journeys, [occupational/mental health](https://www.youtube.com/watch?v=nRMJMRdquJA){:target="_blank"}, and so on. These subjects sometimes lack representation, which is a mistake. They're just as valuable as the most esoteric tech deep-dive, in my opinion, and arguably more accessible to a wider audience. That's another blog post, perhaps. :)
 
-Tech talks inherently require _some_ familiarity with the given topic, but you certainly don't need to consider yourself an 'expert' - more on that in a moment.
+Tech talks inherently require _some_ familiarity with the nuts-and-bolts of a given topic, but you certainly don't need to consider yourself an 'expert' - more on that in a moment.
 
 Topics don't have to be niche, unique, or advanced to have value. Straightforward talks are often more easily digestible. Even experienced people need a refresher now and again, and welcome the opportunity. Good events (like [NIDevConf](https://www.nidevconf.com/){:target="_blank"}) try to represent the breadth and depth of the whole community, so you will nearly always find a spot that suits you.
 
